@@ -88,12 +88,45 @@ if (words.includes('javascript')) {
 }
 
  
+//Lab3 Function
 
- 
+//add
+function add(num1,num2){
+    return num1+num2;
+}
+
+console.log("add number : "+ add(2,2));
+
+//sub
+function sub(num1,num2){
+    return num1-num2;
+}
+
+console.log("sub number : "+ sub(5,2));
+
+
+//multi
+function multi(num1,num2){
+    return num1*num2;
+}
+
+console.log("multi number : "+ multi(5,2));
 
 
 
+//divider
+function divider(num1,num2){
+    return num1/num2;
+}
 
+console.log("divider number : "+ divider(6,2));
+
+//reminder
+function reminder(num1,num2){
+    return num1%num2;
+}
+
+console.log("reminder number : "+ reminder(7,2));
 
 
 
